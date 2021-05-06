@@ -1,4 +1,3 @@
-
 void printList (int num, People p);      //명부 출력
 int manage_attend (int num, People p);   //출결 관리 (출근, 퇴근, 야근, 조퇴)
 int insuranceManage (int num, People p); //보험 관리
