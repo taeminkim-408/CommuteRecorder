@@ -8,6 +8,8 @@ typedef struct
 
 void printList(int count, People **p); //명부 출력 1
 
+
+
 int addPeople(People *); //인부 추가 2
 
 int changePeople(People *p); //인부 수정 3
@@ -33,3 +35,9 @@ void readPeople(People p); // 하나의 제품 출력 함수
 // int loadFile(People **p, int *count, int *index); // 파일에서 불러오기
 
 int selectMenu();
+
+void printtier(int tier); //직급을 표현하는 함수
+
+void printwork(int work); //출근 현황을 표현하는 함수
+
+void printbohum(int bohym);// 보험 현황에 대해서 표기하는 함수
